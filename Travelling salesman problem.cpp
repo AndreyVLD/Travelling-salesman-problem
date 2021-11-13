@@ -32,7 +32,8 @@ void afis(int x[], int k)
 }
 int main()
 {
-	cout << "n="; cin >> n;
+	cout << "The number of houses that the salesman will visit ="; cin >> n;
+	cout <<"The road connection between houses:" <<endl;
 	for (i = 1; i <= n; i++)
 		for (j = 1; j <= n; j++)
 		{
